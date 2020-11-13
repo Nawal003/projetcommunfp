@@ -1,0 +1,29 @@
+ /* Titre */
+h1 {
+    text-align: center;
+    border-bottom: 1px dashed rgb(29, 126, 29);
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+section {
+    margin-bottom: 5%;
+    margin-top: 7%;
+    padding: 3%;
+    font-size: 1.6em;
+
+}
+.gauche {
+    float: left;
+}
+
+.image {
+    display: block;
+    margin-left : 28%;
+    margin-right: auto;
+    margin-top: -3%;
+}
+
+.droite {
+    float: right;
+} 
