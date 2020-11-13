@@ -1,0 +1,241 @@
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: loto sans-serif;
+    background: #525252;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #525252, #152d4b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #152d4b, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+    
+
+/* Barre de navigation */
+nav {
+    width: 100%;
+    background: rgb(134, 133, 133);
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em 0;
+    text-transform: uppercase;
+    
+
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(94, 58, 151);
+    padding-right: 3em;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+
+}
+
+li:first-child{
+    margin-right: auto;
+    margin-left: 3em;
+
+}
+
+li a:hover{
+    color: aliceblue;
+}
+
+/*Barres Skills---------------------*/
+
+.skills {
+    width: 800px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    background: white;
+    padding: 10em;
+    border-radius: 5%;
+
+}
+
+
+.skills div {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.404);
+    height: 20px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+h1{
+    font-size: 40px;
+    padding: 1em;
+    border-bottom: 2px solid black;
+    color: rgb(119, 31, 235);
+    margin: 0 0 40px 0;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+
+h3 {
+    font-size: 20px;
+    margin: 10px 0 10px;
+    text-transform: uppercase;
+    padding: 0.5em;
+
+
+}
+
+
+h4{
+    display: inline;
+    text-align: center;
+    padding-right: 10em;
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;   
+   
+   
+    
+}
+
+/*Front et back-end-------*/
+
+.one::before {
+    content:"";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.two::before {
+    content:"";
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.three::before {
+    content:"";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.four::before {
+    content:"";
+    position: absolute;
+    width: 10%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.five::before {
+    content:"";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.six::before {
+    content:"";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.seven::before {
+    content:"";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.height::before {
+    content:"";
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 0;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+
+/* Footer*/
+footer {
+    background-color: rgb(68, 68, 69);
+    height: 100px;
+    width: 100%;
+    margin-top:100%;
+    position: absolute;
+      
+}
+
+.foot{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.4em 40%;
+}
+

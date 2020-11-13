@@ -1,0 +1,45 @@
+'<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche Profil</title>
+    <link rel="stylesheet" href="competencestech.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <img src="images/logo_simplon_blanc.png" alt="logo simplon" width="100px" height="auto">
+        <nav>
+            <ul class="menu">
+
+                <li>ACCUEIL</li>
+                <li>COMPÉTENCES MÉTIERS</li>
+                <li>COMPÉTENCES TECHNIQUES</li>
+                <li>COMPÉTENCES HUMAINES</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>
+        Compétences techniques
+    </h1>
+    <ul class="logo">
+        <li><img src="images/logohtml.png" alt="html" width="100" height="100" /></li>
+        <li><img src="images/logocss.png" alt="css" width="100" height="100" /></li>
+        <li><img src="images/logojava1.png" alt="jvp" width="100" height="100" /></li>
+        <li><img src="images/jsa.png" alt="jsa" width="100" height="100" /></li>
+        <li><img src="images/php.png" alt="php" width="100" height="100" /></li>
+        <li><img src="images/sql.png" alt="sql" width="100" height="100" /></li>
+        <li><img src="images/react.png" alt="react" width="100" height="100" /></li>
+        <li><img src="images/angular.png" alt="angular" width="100" height="100" /></li>
+        <li><img src="images/nodejs.png" alt="nodejs" width="100" height="100" /></li>
+    </ul>
+    </div>
+</body>
+
+</html>
